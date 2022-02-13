@@ -10,6 +10,8 @@ h3, body{
     padding: 0;
     font-family: sans-serif;
 }
+
+     /* ---------  Head style ---------*/
 header{
     width: 100%;
     background: #e79806;
@@ -46,4 +48,30 @@ header{
 }
 #nav-bar a:hover{
     color: #808080;
+}
+.main{
+    margin: 15px 0 15px;
+}
+.handy-img{
+    width: 100%;
+    border-radius: 8px;
+}
+.doings{
+    width: 100%;
+}
+.activity h2{
+    background-color: #e79806;
+    
+}
+.activity p, a{
+    color: #808080;
+}
+.activity a{
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: .5em .2em;
+}
+.activity {
+    background-color: #000;
 }
