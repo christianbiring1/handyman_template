@@ -5,7 +5,45 @@
 }
 h1,
 h2,
-h3{
+h3, body{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    background: #e79806;
+}
+#title{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: #e79806; */
+}
+#title h1{
+    margin: 10px 30px;
+}
+.white{
+    color: #fff;
+}
+#title a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 30px;
+}
+#title a:hover{
+    color: #808080;
+}
+#nav-bar{
+    background-color: #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+#nav-bar a{
+    text-decoration: none;
+    color: #fff;
+    margin: 102px;
+}
+#nav-bar a:hover{
+    color: #808080;
 }
