@@ -181,6 +181,51 @@ header{
         margin-right: -50px;
     }
 }
+@media only screen and (max-width: 425px){
+    #nav-bar{
+        text-align: center;
+    }
+    #nav-bar a{
+        margin: 10px;
+    }
+    #title h1{
+        font-size: 25px;
+    }
+    .main{
+        margin: 5px 0 5px;
+    }
+    .doings{
+        margin: 0px;
+    }
+    .welcome h2{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .testimony{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 320px){
+    #title{
+        font-size: 15px;
+    }
+    #title h1{
+        margin: 2px 20px;
+    }
+    #title a{
+        margin-right: 5px;
+    }
+    #nav-bar{
+        padding: 5px;
+    }
+    .doings{
+        margin-top: -8px;
+    }
+    .electrical, .plumbing, .welding{
+        padding: 10px;
+     }
+}
 
 
 
