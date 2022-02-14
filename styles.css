@@ -3,9 +3,12 @@
 *::before{
     box-sizing: border-box;
 }
+body{
+    margin: 0 3px;
+}
 h1,
 h2,
-h3, body{
+h3{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -58,20 +61,17 @@ header{
 }
 .doings{
     width: 100%;
+    display: flex;
+    flex: row;
+    margin: 15px 0px;
 }
-.activity h2{
-    background-color: #e79806;
-    
+.electrical, .plumbing, .welding{
+   background: #e79806;
+   width: 33%;
+   padding: 20px;
 }
-.activity p, a{
-    color: #808080;
+.plumbing, .welding{
+    margin-left: 20px;
 }
-.activity a{
-    text-decoration: none;
-    background-color: #fff;
-    border-radius: 5px;
-    padding: .5em .2em;
-}
-.activity {
-    background-color: #000;
-}
+
+
