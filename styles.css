@@ -96,7 +96,43 @@ header{
 .bottom{
     margin: 20px 30px;
     display: flex;
-    flex-direction: row;;
+    flex-direction: row;
+    justify-content: center;
+}
+.welcome h2{
+    color:#e79806;
+    font-size: 40px;
+}
+.welcome h2 + p{
+    font-weight: bold;
+}
+.welcome a{
+    color: #000;
+}
+.welcome a:hover{
+    color: #e79806;
+}
+.testimony h2{
+    font-weight: 500;
+}
+.name{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.sample1, .sample2{
+    display: flex;
+    flex-direction: row;
+}
+#avatar{
+    margin: 20px 10px;
+}
+#avatar img{
+    width: 100px;
+    object-fit: contain;
+    margin-right: 10px
+}
+#comment{
+    margin-top: 0px;
 }
 
 
