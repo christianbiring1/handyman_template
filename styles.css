@@ -144,5 +144,19 @@ header{
     color:#e79806
 }
 
+@media only screen and (max-width: 1024px) {
+    #nav-bar{
+        padding: 5px;
+        text-align: center;
+    }
+    #nav-bar a{
+        margin: 50px;
+    }
+    .testimony{
+        width: 100%;
+        margin-right: -50px;
+    }
+}
+
 
 
