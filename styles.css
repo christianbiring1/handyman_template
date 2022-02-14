@@ -134,6 +134,15 @@ header{
 #comment{
     margin-top: 0px;
 }
+.footer{
+    background: #000;
+    padding: .4em 1em;
+    text-align: center;
+    color: #fff
+}
+.footer span{
+    color:#e79806
+}
 
 
 
