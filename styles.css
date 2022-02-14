@@ -93,6 +93,11 @@ header{
     text-decoration: underline;
     background: #c7c3c3;
 }
+.bottom{
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: row;;
+}
 
 
 
