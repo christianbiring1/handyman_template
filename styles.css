@@ -147,13 +147,37 @@ header{
 @media only screen and (max-width: 1024px) {
     #nav-bar{
         padding: 5px;
-        text-align: center;
     }
     #nav-bar a{
-        margin: 50px;
+        margin: 60px;
     }
     .testimony{
         width: 100%;
+        margin-right: -50px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #nav-bar a{
+        margin: 40px;
+    }
+    .doings{
+        width: 100%;
+        display: block;
+        margin: 15px 10px;
+    }
+    .electrical, .plumbing, .welding{
+        width: 100%;
+        margin-top: 8px;
+     }
+     .plumbing, .welding{
+        margin-left: 0px;
+    }
+    .bottom{
+        display: block;
+    }
+    .testimony{
+        width: 80%;
         margin-right: -50px;
     }
 }
