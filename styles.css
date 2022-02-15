@@ -143,8 +143,12 @@ header{
 .footer span{
     color:#e79806
 }
-.fa-solid{
+.fa-solid {
     color: #fff;
+}
+.footer i{
+    color: #fff;
+    margin: 5px
 }
 
 @media only screen and (max-width: 1024px) {
