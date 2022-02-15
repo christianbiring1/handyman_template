@@ -143,6 +143,9 @@ header{
 .footer span{
     color:#e79806
 }
+.fa-solid{
+    color: #fff;
+}
 
 @media only screen and (max-width: 1024px) {
     #nav-bar{
